@@ -97,3 +97,14 @@ Una sola debe fallar mientras no hayas hecho la Parte 2.
 ## Convenciones del curso
 
 Código, nombres y comentarios en inglés; explicaciones y entregables en español. PEP 8.
+
+
+## Desarrollo y evidencias
+
+Informe: [docs/INFORME.md](docs/INFORME.md).
+Las ocho respuestas fueron generadas con Codex y verificadas (8/8).
+La portada ejecuta 2 consultas en lugar de 23. La suite completa conserva
+un fallo oficial que exige que las respuestas sigan sin implementar;
+el informe explica esta incompatibilidad sin modificar las pruebas.
+Para reproducir las evidencias de SQL y seguridad en una base aislada:
+`python scripts/collect_evidence.py`.
