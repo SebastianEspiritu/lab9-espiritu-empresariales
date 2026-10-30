@@ -1,0 +1,23 @@
+Found 24 test(s).
+System check identified no issues (0 silenced).
+Creating test database for alias 'default'...
+
+.........s..F..s........
+======================================================================
+FAIL: test_the_starter_has_nothing_written (blog.tests.test_duel.DuelTests.test_the_starter_has_nothing_written)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\SEBASTIAN\Desktop\lab9-empresariales-ESPIRITU\blog\tests\test_duel.py", line 27, in test_the_starter_has_nothing_written
+    self.assertEqual(set(self.statuses("team").values()), {"todo"})
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Items in the first set but not the second:
+'ok'
+Items in the second set but not the first:
+'todo'
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.092s
+
+FAILED (failures=1, skipped=2)
+Destroying test database for alias 'default'...
+
